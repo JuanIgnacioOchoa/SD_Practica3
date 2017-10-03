@@ -7,7 +7,7 @@ int suma(int x, int rank)
 {
     int res = 1;
     int i = 0;
-    for (i = 2; i < x; i++)
+    for (i = 2; i < x/2; i++)
     {
         if (x % i == 0)
             res += i;
